@@ -1,0 +1,82 @@
+<style type="text/css">
+
+    body {text-align: center;}
+
+    #main_wrapper {
+    width:850px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    background-color:#999;
+	
+	
+    }
+
+    #header {border-bottom: solid #000}
+
+  	#nav {
+  	width:215px;
+        float:left;
+       margin: 1em 1em 0 0;
+  
+     }
+   
+   #content {
+   margin: 0em 0 0 215px;
+   top:0px;
+   border-left: solid #000;
+   }
+
+   #footer {
+   clear:both;
+   }
+
+   #header_inner, #nav_inner, #content_inner, #promo_inner {
+   overflow:hidden;
+   }
+
+   #header_inner * {
+     padding:0px;
+    }
+	hr{color:#333;}
+
+  #menu-links ul{padding:0em 0 0 .2em}
+
+
+   #menu-links li{
+        display: block;
+	   	text-align: center;
+	   	list-style-type: none;
+	   	line-height: 35px;
+	   	border-bottom:1px solid #000;
+	   	background-color: #999;
+	   	color:#DED;
+ 	}
+
+	#menu-links a { text-decoration: none; color:#000;}
+	#menu-links .link:hover {color:#000; display:block; padding: .3em 6px; background-color: #CCC;}
+
+   #nav_inner {
+      padding: 0px 0px 0px 0px;
+         background-color: #999;
+      
+   }
+   
+
+  #link:hover {color:#000;background-color: #CCC;}
+  #link a{color:#000; }
+
+ 
+   #content_inner {
+   padding:0 1em 1em 1.5em;
+   background-color: #999;
+   }
+
+  
+   #footer_inner {
+   padding:.25em 0em; border-top:solid #000;
+   background-color:#999 ;
+ 
+   }
+     
+  </style>
